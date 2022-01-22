@@ -1,11 +1,31 @@
-<p>git-app works!</p>
-<div class="container mt-3 text-center">
+
+<div class="container mt-4 text-center ">
   <div class="row">
-    <div class="col">
-      <label for="">Search User</label>
-<input size="40" type="text"><br><br>
-<button class="btn btn-primary" >Search</button>
+    <div class="col-md-8">
+      <div class="card bg-warning text-white">
+        <h1>Search Github</h1>
+      </div> 
+      <div class="card-body">
+        <form>
+          <div class="form-group">
+            <input size="40" type="text" name="user" placeholder= "Enter Username" [(ngModel)]= "userQuery" ><br>
+            <div>
+              <button class="btn btn-primary" >Search</button>
+            </div>          
+          </div>
+        </form>
+      </div>
+            
+     
     </div>
   </div>
 </div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <app-profile></app-profile>
+    </div>
+  </div>
+</div>
+
 

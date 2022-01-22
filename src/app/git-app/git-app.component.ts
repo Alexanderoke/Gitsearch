@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./git-app.component.css']
 })
 export class GitAppComponent implements OnInit {
+  public userQuery:any
 
   constructor() { }
 
