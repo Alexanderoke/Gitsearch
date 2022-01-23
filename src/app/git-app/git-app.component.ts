@@ -6,12 +6,13 @@ import { GitSearchService } from '../git-search.service';
   styleUrls: ['./git-app.component.css']
 })
 export class GitAppComponent implements OnInit {
-  public userQuery! :any;
+  public userQuery!:string;
   public githubProfile!:any;
 
   constructor(private gitservice:GitSearchService) { }
   public searchGit(){
-    return this.gitservice.profile()
+     this.gitservice.getProfile()
+     
     
   }
 

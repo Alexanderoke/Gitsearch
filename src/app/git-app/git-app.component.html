@@ -10,7 +10,7 @@
           <div class="form-group">
             <input size="40" type="text" name="user" placeholder= "Enter Username" [(ngModel)]= "userQuery" ><br>
             <div>
-              <button class="btn btn-primary" >Search</button>
+              <button class="btn btn-primary" (click)= "searchGit()" >Search</button>
             </div>          
           </div>
         </form>
@@ -23,7 +23,7 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <app-profile></app-profile>
+      <app-profile [githubProfile]= "githubProfile" ></app-profile>
     </div>
   </div>
 </div>
