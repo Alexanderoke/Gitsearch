@@ -21,4 +21,5 @@ export class GitSearchService {
     return this.http.get<Igitprofile[]>(this.dataUrl);
     
   }
+  
 }
