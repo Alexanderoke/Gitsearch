@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { GitSearchService } from '../git-search.service';
-import { Igitprofile } from '../gitprofile';
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
