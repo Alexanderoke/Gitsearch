@@ -9,6 +9,7 @@ The application is designed to get information from git hub servers and display 
 
 You will need angular cli to run the application.
 ## Live link
+https://alexanderoke.github.io/Gitsearch/
 ## Known Bugs
 The applcation displays a predifined profile.
 ## Technologies Used
