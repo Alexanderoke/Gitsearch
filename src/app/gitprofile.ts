@@ -4,5 +4,6 @@ export interface Igitprofile{
   location:string,
   public_repos:number,
   followers:number,
-  following:number
+  following:number,
+  creadte_at: string
 }
