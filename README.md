@@ -1,8 +1,8 @@
 # Github Search
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+#### Application to search for github profile information, 01/2022
+#### By **Alexander Oke**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+The application is designed to get information from git hub servers and display the information based on the users search.
 ## Setup/Installation Requirements
 * Clone the repo {git clone https://github.com/jonnygovish/cookie-recipe.git}
 * to list setup instructions
