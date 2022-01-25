@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { GitSearchService } from '../git-search.service';
 @Component({
   selector: 'app-git-app',
@@ -6,17 +6,19 @@ import { GitSearchService } from '../git-search.service';
   styleUrls: ['./git-app.component.css']
 })
 export class GitAppComponent implements OnInit {
-  public userQuery!:string;
+  public userQuery!:any;
   public githubProfile!:any;
 
   constructor(private gitservice:GitSearchService) { }
   public searchGit(){
-     this.gitservice.getProfile()
+    
+    this.githubProfile= this.gitservice.getProfile(this.userQuery)
      
     
   }
 
   ngOnInit(): void {
+   
   }
 
 }
