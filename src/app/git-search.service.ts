@@ -1,7 +1,6 @@
 import { HttpClient,HttpErrorResponse } from '@angular/common/http';
 import { Injectable, Input, } from '@angular/core';
 import { Observable } from 'rxjs';
-import { GitAppComponent } from './git-app/git-app.component';
 import { Igitprofile } from './gitprofile';
 
 @Injectable({
