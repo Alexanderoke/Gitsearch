@@ -16,8 +16,8 @@ export class ProfileComponent implements OnInit {
   ngOnInit(): void {
     this.gitservice.getProfile(this.userQuery).subscribe(dataUrl=>{
       this.githubProfile=dataUrl
-      console.log(dataUrl)
-      console.log(this.userQuery['name']);
+      // console.log(dataUrl)
+      // console.log(this.userQuery['name']);
       
     });
     
